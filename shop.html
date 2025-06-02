@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shop</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+        <li><a href="terms.html">AGB</a></li>
+        <li><a href="cart.html">🛒</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-grid">
+      <div class="product">
+        <a href="product.html"><img src="https://via.placeholder.com/400x500" alt="Jogginghose Braun"></a>
+        <h2>Jogginghose Braun</h2>
+        <p>50 €</p>
+        <button onclick="addToCart('Jogginghose Braun', 50)">In den Warenkorb</button>
+      </div>
+      <div class="product">
+        <a href="product.html"><img src="https://via.placeholder.com/400x500" alt="Jogginghose Schwarz"></a>
+        <h2>Jogginghose Schwarz</h2>
+        <p>50 €</p>
+        <button onclick="addToCart('Jogginghose Schwarz', 50)">In den Warenkorb</button>
+      </div>
+      <div class="product">
+        <a href="product.html"><img src="https://via.placeholder.com/400x500" alt="Jogginghose Grau"></a>
+        <h2>Jogginghose Grau</h2>
+        <p>50 €</p>
+        <button onclick="addToCart('Jogginghose Grau', 50)">In den Warenkorb</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/cart.js"></script>
+</body>
+</html>
